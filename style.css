@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --BODY-BG: hsl(212, 45%, 89%);
+  --COMPONENT-BG: hsl(0, 0%, 100%);
+  --P-COLOR: hsl(216, 15%, 48%);
+}
+
+body {
+  background-color: var(--BODY-BG);
+  min-height: 100vh;
+  font-family: "outfit", "sans serif";
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.child {
+  background-color: var(--COMPONENT-BG);
+  max-width: 250px;
+  height: 400px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 2rem;
+  margin: 1rem 2rem 2.5rem;
+}
+
+.qr-code img {
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 900px;
+}
+
+p {
+  color: var(--P-COLOR);
+  font-size: 13px;
+  max-width: 200px;
+  word-wrap: break-word;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0.3rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
