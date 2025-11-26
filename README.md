@@ -20,7 +20,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-I am so happy to discover the magic of wrapping divs, they are used in the strategic positioning of the child element with the display element. I also found out that semantic html can do the work of wrappinh divs as well. For example, I can wrap an article element in a section element if I want to position the article's content in the centre using using the display property.
+I am so happy to discover the magic of wrapping divs, they are used in the strategic positioning of the child element with the display element. I also found out that semantic html can do the work of wrapping divs as well. For example, I can wrap an article element in a section element if I want to position the article's content in the centre using using the display property.
 
 ```html
 <div class="parent">
